@@ -4,9 +4,9 @@ class Header extends HTMLElement {
   }
   connectedCallback() {
     this.innerHTML = `
-    <div>
+    <div class="NavBar">
         <header class="header">
-          <a href="/Pages/IRP.html">IPR</a>
+          <a href="Pages/IRP.html" target="frame">IPR</a>
         </header>
       </div>
     
